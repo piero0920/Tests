@@ -7,6 +7,6 @@
    [v.1](https://piero0920.github.io/Tests/test-v1/) 
 
 ### version v.2
-   Testing a videoplayer and using [videoUrlTimestamp](https://github.com/piero0920/videoUrlTimestamp)
+   Testing custom videoplayer and using [videoUrlTimestamp](https://github.com/piero0920/videoUrlTimestamp)
 
    [v.2](https://piero0920.github.io/Tests/test-v2/)
