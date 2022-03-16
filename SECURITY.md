@@ -2,4 +2,4 @@
 
 ## Report anything
 
-Let me know opening and issue
+Let me know opening an issue
