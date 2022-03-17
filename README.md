@@ -10,3 +10,5 @@
    Testing custom videoplayer and using [videoUrlTimestamp](https://github.com/piero0920/videoUrlTimestamp)
 
    [example](https://piero0920.github.io/Tests/test-v2/video)
+
+   > custom player in procress
