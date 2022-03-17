@@ -9,7 +9,7 @@ document.getElementsByTagName('video')[0].volume = 0.3;
 
     if (q.indexOf('t=') > -1) {
       var timeString = q.split('=')[1],
-        media = document.getElementById('media'),
+        media = document.getElementById('video'),
         seekedFromURL = false;
 
       media.addEventListener('canplay', function () {
@@ -74,7 +74,7 @@ document.getElementsByTagName('video')[0].volume = 0.3;
   function displayTimeURL () {
     var loc = window.location,
       timeDisplay = document.querySelector('.current-url'),
-      media = document.getElementById('media'),
+      media = document.getElementById('video'),
       coolTime = '';
 
     media.addEventListener('timeupdate', function () {
