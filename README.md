@@ -12,6 +12,6 @@
    [example](https://piero0920.github.io/Tests/test-v2/video)
 
 ### version v.3
-   Testing simple contact form with [Static Forms](https://www.staticforms.xyz/) or [Formspree](https://formspree.io/)
+   Testing simple contact form with [Static Forms](https://www.staticforms.xyz/) and [Formspree](https://formspree.io/)
 
    [example](https://piero0920.github.io/Tests/test-v3)
