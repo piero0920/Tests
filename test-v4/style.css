@@ -1,10 +1,12 @@
 body {
     background-color: #121212;
     font-family: 'Courier New', Courier, monospace;
+    display: block;
 }
 
-h1, p {
+h3, p {
     text-align: center;
+    color: whitesmoke;
   }
 
 .row {
