@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Test v.4</title>
+    </head>
+    <body class="">
+        <h1>Test Version #4</h1>
+        <p>Testing contact form using Google Sheets, Google Apps Script and Materialize CSS.</p>
+
+        <div class="contact-box">
+            <div class="row">
+              <form class="col s12 gform" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbyMlrajQo6_jW9RbI_vSaC9erKbN9TPTE6C88Vh_pPXZfqSrgX9R7wX9S0dil0O1U9a/exec">
+                <div class="row form-elements">
+                  <div class="input-field col s12 purple-text">
+                    <i class="material-icons prefix purple-text">account_circle</i>
+                    <input required name="name" id="icon_prefix" type="text" class="validate white-text">
+                    <label for="icon_prefix" class="white-text">Name</label>
+                  </div>
+                  
+                  <div class="input-field col s12 purple-text">
+                    <i class="material-icons prefix purple-text">email</i>
+                    <input required name="email" id="icon_email" type="email" class="validate white-text">
+                    <label for="icon_email" class="white-text">Email</label>
+                  </div>
+                  <div class="input-field col s12 purple-text">
+                    <i class="material-icons prefix purple-text">edit</i>
+                    <textarea required name="message" id="icon_prefix2" class="materialize-textarea white-text"></textarea>
+                    <label for="icon_prefix2" class="white-text">Message</label>
+                  </div>
+
+                  <fieldset class="hide pure-group honeypot-field">
+                    <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                    <input id="honeypot" type="text" name="honeypot" value="" />
+                  </fieldset>
+            
+                  <button class="btn waves-effect waves-light purple">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+            
+                <div class="thankyou_message">
+                    <h2>Your message has been sent, I will reply as soon as possible.</h2>
+                </div>
+              </form>
+            </div>
+        </div>
+
+        <script src="contact.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </body>
+</html>

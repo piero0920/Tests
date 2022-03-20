@@ -15,3 +15,9 @@
    Testing simple contact form with [Static Forms](https://www.staticforms.xyz/) and [Formspree](https://formspree.io/)
 
    [example](https://piero0920.github.io/Tests/test-v3)
+
+### version v.4
+   Testing contact form using this [repo.](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server)
+      This repo uses Google Sheets and Google Apps Script. And I added Materialize CSS. 
+
+   [example](https://piero0920.github.io/Tests/test-v4)

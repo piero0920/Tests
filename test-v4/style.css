@@ -1,0 +1,42 @@
+body {
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, p {
+    text-align: center;
+  }
+
+.row {
+	margin: 30px;
+}
+
+.contact-box {
+	display: flex;
+	justify-content: center;
+}
+
+.input-field input:focus + label {
+    color: purple !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid purple !important;
+    box-shadow: 0 1px 0 0 purple !important
+}
+
+.input-field textarea:focus + label {
+    color: purple !important;
+}
+  
+.row .input-field textarea:focus {
+    border-bottom: 1px solid purple !important;
+    box-shadow: 0 1px 0 0 purple !important
+}
+
+.thankyou_message {
+    display: none;
+    color: whitesmoke;
+    text-align: center;
+    width: inherit;
+}
