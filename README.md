@@ -9,7 +9,6 @@
 ---
 ### version v.2
    Testing custom videoplayer and using [videoUrlTimestamp](https://github.com/piero0920/videoUrlTimestamp)
-   > And also plays video automatically
 
    [example of v.2](https://piero0920.github.io/Tests/test-v2/video)
 
