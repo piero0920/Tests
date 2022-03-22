@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Test v.5</title>
+        <link rel="icon" href="../favicon.ico">
+    </head>
+    <body>
+        <h3>Test Version #5</h3>
+        <p>Testing how to display data from google sheets in html table using an api and adding search tool with a bit of Materialize CSS.</p>
+
+        <div class="input-field container">
+            <i class="material-icons prefix white-text">search</i>
+            <input class="white-text" type="text" id="myInput" onkeyup="myFunction()"  placeholder="Search for date">
+        </div>    
+        <table id="myTable" class="white-text container highlight" data-stein-url="https://api.steinhq.com/v1/storages/6238f6efbca21f053e84689b/Sheet1" data-stein-hide-empty>
+            <tbody>
+                <tr>
+                    <td class="date">{{date}}</td>
+                    <td>{{title}}</td>
+                    <td>{{drive}}</td>  
+                </tr>
+            </tbody>
+        </table>
+        <script src="search.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
