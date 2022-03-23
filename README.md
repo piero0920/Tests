@@ -31,3 +31,9 @@
    This api gets data from Google Sheets and displays it in html `<table>` tag. 
 
    [example of v.5](https://piero0920.github.io/Tests/test-v5)
+
+---
+### version v.6
+   Testing database for static website using this JSON file and jQuery.
+
+   [example of v.6](https://piero0920.github.io/Tests/test-v6)
