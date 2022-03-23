@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Test v.6</title>
+    <link rel="icon" href="../favicon.ico">
+  </head>
+  <body>
+    <h3>Test Version #6</h3>
+    <p>Testing how to display data from JSON file in html table using jquery and adding search tool with a bit of Materialize CSS.</p>
+    <div class="wrapper">
+      <div class="input-field container">
+          <i class="material-icons prefix white-text">search</i>
+          <input class="white-text" type="text" id="myInput" onkeyup="myFunction()"  placeholder="Search for title">
+      </div> 
+      <div class="profile">
+        <table id= "userdata" class="white-text container highlight">
+            <thead>
+              <th class="date">DATE</th>
+              <th>TITLE</th>
+              <th>Preview</th>
+            </thead>
+            <tbody>
+      
+            </tbody>
+          </table>
+        </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="search.js"></script>
+</html>

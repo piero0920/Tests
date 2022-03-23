@@ -1,0 +1,17 @@
+body {
+  background-color: #121212;
+  font-family: 'Courier New', Courier, monospace;
+}
+input {
+  border-bottom: 1px solid purple !important;
+  box-shadow: 0 1px 0 0 pink !important;
+}
+
+h3, p {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.date {
+  width: 5em;
+}
