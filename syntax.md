@@ -1,5 +1,5 @@
 ```json
 {
-  msg: 'nice'
+  'msg': 'nice'
 }
 ```
